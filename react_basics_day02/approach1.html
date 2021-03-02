@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Approach 1</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="text/javascript">
+        // Approach 1 : using simple JavaScript dynamic rending
+        var whatToRender = "Hello World App -  Approach 1";
+        var whereToRender = "root";
+        var render = function() {
+            document.getElementById(whereToRender).innerHTML = whatToRender;
+        }
+
+        render();
+
+    </script>
+</body>
+
+</html>
